@@ -20,7 +20,7 @@ code {
 
 #searchFontSize{
   font-size: x-large;
-  color:  rgb(253	223	176	)
+  /* color: rgb(250	152	1) */
 }
 .searchInput{
   width: 20%;
@@ -32,16 +32,22 @@ form{
 }
 
 form button {
-  border-radius: 0.5rem;
+  height: 3em;
+  border-radius: 1rem;
   width: min-content;
-  padding-left: 2%;
-  padding-right: 2%;
-  background-color: rgb(253	223	176	);
+  margin-top: 1rem;
+  padding-left: 3%;
+  padding-right: 3%;
+  color: white;
+  font-size: large;
+  background-image: linear-gradient(to bottom right,rgb(99	187	227), rgb(35 112 225));
   transition-duration: 0.4s;
 }
 
 form button:hover{
+  background-image: linear-gradient(to bottom right,rgb(139	195	74), rgb(225 225 225));
   background-color: rgb(139	195	74);
+  color: black;
 }
 
 table {
@@ -89,35 +95,35 @@ th, td {
 
 #client{
   margin: .5%;
-  border-radius: 0.2rem;
+  border-radius: 2rem;
 }
 
 #poc{
   margin: .5%;
-  border-radius: 0.2rem;
+  border-radius: 2rem;
 }
 
 #email{
   margin: .5%;
-  border-radius: 0.2rem;
+  border-radius: 2rem;
 }
 
 #role{
   margin: .5%;
-  border-radius: 0.2rem;
+  border-radius: 2rem;
 }
 
 #urgency{
   margin: .5%;
-  border-radius: 0.2rem;
+  border-radius: 2rem;
 }
 
 #quantity{
   margin: .5%;
-  border-radius: 0.2rem;
+  border-radius: 2rem;
 }
 
 #skills_needed{
   margin: .5%;
-  border-radius: 0.2rem;
+  border-radius: 2rem;
 }
