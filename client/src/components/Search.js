@@ -7,7 +7,7 @@ function Search({search, setSearch}) {
                 <input
                     className='searchInput'
                     type='text'
-                    placeholder='serach by Client or Role'
+                    placeholder=' Serach by Client or Role'
                     value={search}
                     onChange={(e) => setSearch(e.target.value)}
                 />

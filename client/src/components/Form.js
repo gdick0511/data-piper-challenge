@@ -68,7 +68,7 @@ function Form({users, setUsers}) {
                 name='client'
                 value={addInfo.client}
                 required='required' 
-                placeholder='Client'
+                placeholder=' Client'
                 onChange={handleChange}
                 ></input>
                 <input id='poc'
@@ -76,7 +76,7 @@ function Form({users, setUsers}) {
                 name='poc'
                 value={addInfo.poc}
                 required='required'  
-                placeholder='POC'
+                placeholder=' POC'
                 onChange={handleChange}
                 ></input>
                 <input id='email'
@@ -84,7 +84,7 @@ function Form({users, setUsers}) {
                 name='email'
                 value={addInfo.email}
                 required='required'   
-                placeholder='Email'
+                placeholder=' Email'
                 onChange={handleChange}
                 ></input>
                 <input id='role'
@@ -92,7 +92,7 @@ function Form({users, setUsers}) {
                 name='role'
                 value={addInfo.role}
                 required='required'
-                placeholder='Role'
+                placeholder=' Role'
                 onChange={handleChange}
                 ></input>
                 <input id='urgency'
@@ -100,7 +100,7 @@ function Form({users, setUsers}) {
                 name='urgency'
                 value={addInfo.urgency}
                 required='required' 
-                placeholder='Urgency'
+                placeholder=' Urgency'
                 onChange={handleChange}
                 ></input>
                 <input id='quantity'
@@ -108,7 +108,7 @@ function Form({users, setUsers}) {
                 name='quantity'
                 value={addInfo.quantity}
                 required='required' 
-                placeholder='Quantity'
+                placeholder=' Quantity'
                 onChange={handleChange}
                 ></input>
                 <input id='skills_needed' 
@@ -116,7 +116,7 @@ function Form({users, setUsers}) {
                 name='skills_needed'
                 value={addInfo.skills_needed}
                 required='required' 
-                placeholder='Skills Needed'
+                placeholder=' Skills Needed'
                 onChange={handleChange}
                 ></input>
                 <br></br>
