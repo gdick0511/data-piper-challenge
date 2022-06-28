@@ -16,4 +16,8 @@ User.create(client: 'PwC', poc: 'David Smith', email: 'DSmith_0100@no.com', role
 
 User.create(client: 'PwC', poc: 'Eliza Cath', email: 'ElizeT_Cat.com', role: 'Datavault 2.0', urgency: 'High', quantity: '2', skills_needed: 'Datavault Cert')
 
+User.create(client: 'XOLA', poc: 'Jessica Fewell', email: 'JFewell@Xola.no', role: 'Junior Developer', urgency: 'Med', quantity: '2', skills_needed: 'HTML, CSS, JavaScript, React.js, Node.js')
+
+User.create(client: 'XOLA', poc: 'Scott Zimmerman', email: 'Scott@Xola.no', role: 'CEO', urgency: 'Low', quantity: '1', skills_needed: 'AWS, Cloud Services')
+
 puts 'Done Seeding! 🌱🌱🌱'

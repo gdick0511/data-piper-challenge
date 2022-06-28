@@ -3,7 +3,7 @@ import React from 'react'
 function TableData({users}) {
     return (
         <div>
-            <table id='table'>
+            <table>
                <thead>
                    <tr>
                        <th>Client</th>
@@ -22,7 +22,7 @@ function TableData({users}) {
                        <td>{eachUser.poc}</td>
                        <td>{eachUser.email}</td>
                        <td>{eachUser.role}</td>
-                       <td>{eachUser.urgency}</td>
+                       <td className={eachUser.urgency == 'Med' ? 'orange-background' : '' || eachUser.urgency == 'High' ? 'red-background' : ''}>{eachUser.urgency}</td>
                        <td>{eachUser.quantity}</td>
                        <td>{eachUser.skills_needed}</td>
                    </tr>

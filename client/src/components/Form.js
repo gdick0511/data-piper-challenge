@@ -15,7 +15,7 @@ function Form({users, setUsers}) {
 
     // State for resetting form data once the handleSubmit function fires
     const [add, setAdd] = useState([])
-    
+
     // Function to handle changes on input fields while adding new info
     function handleChange(e) {
         setAddInfo((currentInfo) => ({
@@ -63,62 +63,63 @@ function Form({users, setUsers}) {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input
+                <input id='client'
                 type='text'
                 name='client'
                 value={addInfo.client}
                 required='required' 
-                placeholder='Client'
+                placeholder=' Client'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='poc'
                 type='text'
                 name='poc'
                 value={addInfo.poc}
                 required='required'  
-                placeholder='POC'
+                placeholder=' POC'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='email'
                 type='text'
                 name='email'
                 value={addInfo.email}
                 required='required'   
-                placeholder='Email'
+                placeholder=' Email'
                 onChange={handleChange}
                 ></input>
-                <input 
+                <input id='role'
                 type='text'
                 name='role'
                 value={addInfo.role}
                 required='required'
-                placeholder='Role'
+                placeholder=' Role'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='urgency'
                 type='text'
                 name='urgency'
                 value={addInfo.urgency}
                 required='required' 
-                placeholder='Urgency'
+                placeholder=' Urgency'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='quantity'
                 type='text'
                 name='quantity'
                 value={addInfo.quantity}
                 required='required' 
-                placeholder='Quantity'
+                placeholder=' Quantity'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='skills_needed' 
                 type='text'
                 name='skills_needed'
                 value={addInfo.skills_needed}
                 required='required' 
-                placeholder='Skills Needed'
+                placeholder=' Skills Needed'
                 onChange={handleChange}
                 ></input>
+                <br></br>
                 <button>Add</button>
             </form>
         </div>
