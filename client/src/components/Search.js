@@ -3,7 +3,7 @@ import React from 'react'
 function Search({search, setSearch}) {
     return (
         <div>
-            <label id='searchFontSize'>Search</label>
+            <label id='searchFontSize'>Search </label>
                 <input
                     className='searchInput'
                     type='text'

@@ -63,7 +63,7 @@ function Form({users, setUsers}) {
     return (
         <div>
             <form onSubmit={handleSubmit}>
-                <input
+                <input id='client'
                 type='text'
                 name='client'
                 value={addInfo.client}
@@ -71,7 +71,7 @@ function Form({users, setUsers}) {
                 placeholder='Client'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='poc'
                 type='text'
                 name='poc'
                 value={addInfo.poc}
@@ -79,7 +79,7 @@ function Form({users, setUsers}) {
                 placeholder='POC'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='email'
                 type='text'
                 name='email'
                 value={addInfo.email}
@@ -87,7 +87,7 @@ function Form({users, setUsers}) {
                 placeholder='Email'
                 onChange={handleChange}
                 ></input>
-                <input 
+                <input id='role'
                 type='text'
                 name='role'
                 value={addInfo.role}
@@ -95,7 +95,7 @@ function Form({users, setUsers}) {
                 placeholder='Role'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='urgency'
                 type='text'
                 name='urgency'
                 value={addInfo.urgency}
@@ -103,7 +103,7 @@ function Form({users, setUsers}) {
                 placeholder='Urgency'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='quantity'
                 type='text'
                 name='quantity'
                 value={addInfo.quantity}
@@ -111,7 +111,7 @@ function Form({users, setUsers}) {
                 placeholder='Quantity'
                 onChange={handleChange}
                 ></input>
-                <input
+                <input id='skills_needed' 
                 type='text'
                 name='skills_needed'
                 value={addInfo.skills_needed}
