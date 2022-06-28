@@ -15,7 +15,7 @@ function Form({users, setUsers}) {
 
     // State for resetting form data once the handleSubmit function fires
     const [add, setAdd] = useState([])
-    
+
     // Function to handle changes on input fields while adding new info
     function handleChange(e) {
         setAddInfo((currentInfo) => ({
@@ -119,6 +119,7 @@ function Form({users, setUsers}) {
                 placeholder='Skills Needed'
                 onChange={handleChange}
                 ></input>
+                <br></br>
                 <button>Add</button>
             </form>
         </div>

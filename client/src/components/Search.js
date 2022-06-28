@@ -3,9 +3,9 @@ import React from 'react'
 function Search({search, setSearch}) {
     return (
         <div>
-            <label>Search</label>
+            <label id='searchFontSize'>Search</label>
                 <input
-                    className=''
+                    className='searchInput'
                     type='text'
                     placeholder='serach by Client or Role'
                     value={search}
