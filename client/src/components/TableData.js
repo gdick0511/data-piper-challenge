@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TableData({users, setUsers, filterTableData}) {
+function TableData({users}) {
     return (
         <div>
             <table id='table'>

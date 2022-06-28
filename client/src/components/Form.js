@@ -3,7 +3,6 @@ import {useState} from 'react'
 function Form({users, setUsers}) {
 
     // State for setting values for from data to be captured
-    const [add, setAdd] = useState([])
     const [addInfo, setAddInfo] = useState({
         client: '',
         poc: '',
@@ -15,8 +14,8 @@ function Form({users, setUsers}) {
     })
 
     // State for resetting form data once the handleSubmit function fires
-    const [from, setForm] = useState([])
-
+    const [add, setAdd] = useState([])
+    
     // Function to handle changes on input fields while adding new info
     function handleChange(e) {
         setAddInfo((currentInfo) => ({
