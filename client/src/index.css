@@ -20,6 +20,10 @@ code {
   text-align: center;
 }
 
+.title{
+  margin-top: -0.5%;
+}
+
 #searchFontSize{
   font-size: x-large;
   /* color: rgb(250	152	1) */

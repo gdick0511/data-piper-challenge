@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <img id='logo' src={datapiperlogo} alt='Data Piper Logo'/>
-      <h1>Data Piper Coding Challenge</h1>
+      <h1 className='title'>Data Piper Coding Challenge</h1>
       <Search search={search} setSearch={setSearch}/>
       <Form users={users} setUsers={setUsers}/>
       <TableData setUsers={setUsers} users={filterTableData}/>
