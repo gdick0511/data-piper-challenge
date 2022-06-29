@@ -22,6 +22,7 @@ function TableData({users}) {
                        <td>{eachUser.poc}</td>
                        <td>{eachUser.email}</td>
                        <td>{eachUser.role}</td>
+                       {/* I am able to change the color of Urgency using a ternary expression to then change which classname is associated with that users urgency level. Using CSS, we are then able to change the background color of the box to White, Orange or Red */}
                        <td className={eachUser.urgency == 'Med' ? 'orange-background' : '' || eachUser.urgency == 'High' ? 'red-background' : ''}>{eachUser.urgency}</td>
                        <td>{eachUser.quantity}</td>
                        <td>{eachUser.skills_needed}</td>

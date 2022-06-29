@@ -1,8 +1,10 @@
+*{
+  font-family: 'Libre Franklin', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
+}
 body {
   margin: 0;
-    font-family: 'Libre Franklin', sans-serif;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to bottom right,rgb(99	187	227), rgb(35 112 225), rgb(99	187	227));
@@ -126,4 +128,5 @@ th, td {
 #skills_needed{
   margin: .5%;
   border-radius: 2rem;
+  width: 30%;
 }
